@@ -1,6 +1,7 @@
 {
 	"name": "pipeline1",
 	"properties": {
+		"description": "manikanta github pratice",
 		"activities": [
 			{
 				"name": "Copy data1",
