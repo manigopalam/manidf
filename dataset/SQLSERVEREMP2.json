@@ -1,0 +1,29 @@
+{
+	"name": "SQLSERVEREMP2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ename",
+				"type": "varchar"
+			},
+			{
+				"name": "address",
+				"type": "varchar"
+			},
+			{
+				"name": "sal",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "emp"
+		}
+	}
+}

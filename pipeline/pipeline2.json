@@ -1,7 +1,6 @@
 {
-	"name": "pipeline1",
+	"name": "pipeline2",
 	"properties": {
-		"description": "manikanta github pratice test on",
 		"activities": [
 			{
 				"name": "Copy data1",
@@ -68,19 +67,18 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "blobstorage",
+						"referenceName": "BLOBSTORAGEEMP2",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "sqlserver",
+						"referenceName": "SQLSERVEREMP2",
 						"type": "DatasetReference"
 					}
 				]
 			}
 		],
 		"annotations": []
-	},
-	"type": "Microsoft.DataFactory/factories/pipelines"
+	}
 }
